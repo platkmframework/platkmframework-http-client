@@ -3,6 +3,15 @@
   <groupId>org.platkmframework</groupId>
   <artifactId>platkmframework-http-client</artifactId>
   <version>0.1.0-alpha</version>
+  
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Github Package</name>
+            <url>https://maven.pkg.github.com/platkmframework/platkmframework-http-client</url>
+        </repository>
+    </distributionManagement>
+    
   <build> 
     <plugins>
       <plugin>
