@@ -16,6 +16,9 @@
     <repository>
         <id>github</id>
         <url>https://maven.pkg.github.com/platkmframework/platkmframework-http-util</url>
+        <snapshots>
+	      <enabled>false</enabled>
+	    </snapshots>
     </repository>
     </repositories>
     
