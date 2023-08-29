@@ -8,7 +8,7 @@
         <repository>
             <id>github</id>
             <name>Github Package</name>
-            <url>https://maven.pkg.github.com/platkmframework/*</url>
+            <url>https://maven.pkg.github.com/platkmframework/platkmframework-http-client</url>
         </repository>
     </distributionManagement>
     
