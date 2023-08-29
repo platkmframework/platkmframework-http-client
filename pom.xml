@@ -12,6 +12,13 @@
         </repository>
     </distributionManagement>
     
+    <repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/platkmframework/platkmframework-http-util</url>
+    </repository>
+    </repositories>
+    
   <build> 
     <plugins>
       <plugin>
