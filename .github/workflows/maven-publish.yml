@@ -33,4 +33,4 @@ jobs:
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -s $GITHUB_WORKSPACE/.github/workflows/maven-settings.xml
       env:
-        GITHUB_TOKEN: ${{ secrets.PLATKMFRAMEWORK_TOKEN }}
+        GITHUB_TOKEN: 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
