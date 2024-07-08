@@ -1,0 +1,10 @@
+<project>
+	<property name="src.dir" location="src" />
+	<basename property="project.name" file="${basedir}"/>
+    <target name="copy_sources">
+    <copy todir="G:\projects\platkm\documents\amanager\derecho_autor\platkmframework\${project.name}">
+        <fileset dir="${src.dir}"  />
+    </copy>
+    </target>
+</project>
+
